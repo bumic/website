@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+#nav_bar {
+    width: 100%;
+    position: fixed;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 3em;
+    clear: both;
+}
+
+#nav_bar li {
+    float: left;
+}
+
+#nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family:'Lato', sans-serif;
+}
+
+#nav_bar li a:hover {
+    background-color:rgba(0, 0, 0, 0.25);
+}
+
+#nav_bar #home_icon {
+	width: 5.5em;
+	height: 1.75em;
+}
+
+#content {
+    padding: 0em 3em;
+}
+
+.content_section {
+    padding-top: 4em;
+    height: 100%;
+    width: 100%;
+}
+
+#content_home_center {
+    margin: 13% 25%;
+    /*background: black;*/
+    height: 25%;
+    width: 50%;
+}
+
+#bumic_logo {
+    height: auto;
+    width: auto;
+}
+
+#bumic_title {
+    font-family:'Lato', sans-serif;
+    font-size: 1.64em;
+    font-weight: 500;
+    width: 100%;
+    color: #2d2e30;
+    /*background: black;*/
+}
+
+footer {
+    margin: 1em 3em;
+}

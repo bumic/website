@@ -10,28 +10,37 @@
 		<link rel="stylesheet" href="style/style.css">
 	</header>
 	<body>
-		<ul id='nav_bar'>
-			<li><a href="#home"><img id='home_icon' src="image/mic.png"></a></li>
-			<li><a href="#about">ABOUT</a></li>
-			<li><a href="#news">NEWS</a></li>
-			<li><a href="#members">MEMBERS</a></li>
-			<li><a href="#teams">TEAMS</a></li>
-			<li><a href="#projects">PROJECTS</a></li>
-			<li><a href="#sponsors">SPONSORS</a></li>
-		</ul>
+		<div id="nav_bar">
+			<div id="home_section">
+				<a href="#home"><img id="home_icon" src="image/mic.png"></a>
+			</div>
+			<div id="menu_section">
+				<ul id="menu">
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#news">NEWS</a></li>
+					<li><a href="#members">MEMBERS</a></li>
+					<li><a href="#teams">TEAMS</a></li>
+					<li><a href="#projects">PROJECTS</a></li>
+					<li><a href="#sponsors">SPONSORS</a></li>
+				</ul>
+			</div>
+		</div>
 		<div id='content'>
 			<div id='home' class='content_section'>
 				<div id='content_home_center'>
-					<img id='bumic_logo' src="image/bumic-587x128.png">
-					<span id='bumic_title'>Boston University Machine Intelligence Community</span>
+					<img id='bumic_logo' src="image/bumic-591x171.png">
 				</div>
 			</div>
 			<div id='about' class='content_section'>
-				What we do
+				<p>
+					Boston University Machine Intelligence Community is a space for sharing and discussing machine learning research, articles, ideas, and current events. We are also officially a student-led research group sponsored by Boston University's Rafik B. Hariri Institute for Computing and Computational Science and Engineering, BU Software & Application Innovation Lab (SAIL), and BU Spark.
+				</p>
 			</div>
+			<div id='about_pic' class='content_section'></div>
 			<div id='news' class='content_section'>
 				What's going on?
 			</div>
+			<div id='news_pic' class='content_section'></div>
 			<div id='members' class='content_section'>
 				Who are we?
 			</div>
@@ -41,8 +50,17 @@
 			<div id='projects' class='content_section'>
 				Our projects
 			</div>
+			<!-- <div id='proj_pic' class='content_section'>
+				<video playsinline autoplay muted loop poster="project_default.jpg" id="proj_vid">
+				    <source src="video/projects.mp4" type="video/mp4">
+				</video>
+			</div> -->
 			<div id='sponsors' class='content_section'>
 				Our sponsors
+			</div>
+			<div id='footer'>
+				<!-- Boston University | 
+				111 Cummington Mall, Boston MA 02215 -->
 			</div>
 		</div>
 	</body>

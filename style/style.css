@@ -1,40 +1,66 @@
 html,
 body {
   height: 100%;
+  font-family: 'Avenir Black', 'Arial Black', sans-serif;
 }
 
 #nav_bar {
+    margin: 0px;
+    padding: .1em;
     width: 100%;
     position: fixed;
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:rgba(0, 0, 0, 0.5);
-    height: 3em;
-    clear: both;
+    background-color:rgba(0, 0, 0, 0.1);
 }
 
-#nav_bar li {
+#nav_bar #home_section {
+    height: 2.5em;
+    width: 9%;
     float: left;
 }
 
-#nav_bar li a {
+#nav_bar #home_icon {
+    padding: 0.5em 0.5em;
+    width: 5.5em;
+    height: 1.75em;
+    float: left;
+}
+
+#menu_section {
+    width:91%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 2.5em;
+    float: left;
+}
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    float: left;
+    display: inline-block
+}
+
+#menu li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: .75em;
     text-decoration: none;
-    font-family:'Lato', sans-serif;
+    letter-spacing: 1px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
-#nav_bar li a:hover {
-    background-color:rgba(0, 0, 0, 0.25);
-}
-
-#nav_bar #home_icon {
-	width: 5.5em;
-	height: 1.75em;
+#menu li a:hover {
+    color: #242628;
 }
 
 #content {
@@ -43,13 +69,15 @@ body {
 
 .content_section {
     padding-top: 4em;
+}
+
+#home {
     height: 100%;
     width: 100%;
 }
 
 #content_home_center {
     margin: 13% 25%;
-    /*background: black;*/
     height: 25%;
     width: 50%;
 }
@@ -65,9 +93,96 @@ body {
     font-weight: 500;
     width: 100%;
     color: #2d2e30;
-    /*background: black;*/
 }
 
-footer {
-    margin: 1em 3em;
+#content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#about {
+    min-height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/bg0.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#news {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#news_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#members {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#teams {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#projects {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#proj_pic {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*#proj_vid {
+    min-width: 100%;
+    min-height: 70vh;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(project_default.jpg) no-repeat;
+}*/
+
+#sponsors {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#footer {
+    margin: 0;
+    vertical-align: text-top;
+    height: 3em;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: #efefef;
 }

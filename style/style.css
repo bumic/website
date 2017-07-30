@@ -4,39 +4,45 @@ body {
   font-family: 'Avenir Black', 'Arial Black', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1, a {
+    color: #242628;
+}
+
+h3, a {
+    color: #242628;
+}
+
+h1 a:hover {
+    color: #5b5b5b;
+}
+
+h3 a:hover {
+    color: #5b5b5b;
+}
+
 #nav_bar {
     margin: 0px;
-    padding: .1em;
     width: 100%;
-    position: fixed;
-    background-color:rgba(0, 0, 0, 0.1);
-}
-
-#nav_bar #home_section {
     height: 2.5em;
-    width: 9%;
-    float: left;
-}
-
-#nav_bar #home_icon {
-    padding: 0.5em 0.5em;
-    width: 5.5em;
-    height: 1.75em;
-    float: left;
+    position: fixed;
+    /*background-color:rgba(0, 0, 0, 0.05);*/
 }
 
 #menu_section {
-    width:91%;
+    width: 90%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 2.5em;
     float: left;
 }
 
 #menu {
-    margin: 0px;
+    margin: 0% 0% 0% 28%;
     padding: 0px;
 }
 
@@ -47,11 +53,17 @@ body {
 
 #menu li a {
     display: block;
-    color: white;
+    color: #242628;
     text-align: center;
     padding: .75em;
     text-decoration: none;
     letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#menu li a:hover {
+    font-weight: 500;
+    color: #5b5b5b;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -59,8 +71,61 @@ body {
     transition:.5s;
 }
 
-#menu li a:hover {
-    color: #242628;
+#social_section {
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+#social_section a:hover {
+    font-weight: 500;
+    color: white;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#fb-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#fb-icon img {
+    transition: opacity .7s ease;
+}
+
+#fb-icon img:hover {
+    opacity: 0.5;
+}
+
+#github-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#github-icon img {
+    transition: opacity .7s ease;
+}
+
+#github-icon img:hover {
+    opacity: 0.5;
+}
+
+#mail-icon {
+    margin-top: 10px;
+    float: left;
+}
+
+#mail-icon img {
+    transition: opacity .7s ease;
+}
+
+#mail-icon img:hover {
+    opacity: 0.5;
 }
 
 #content {
@@ -83,6 +148,7 @@ body {
 }
 
 #bumic_logo {
+    padding-left: 5%;
     height: auto;
     width: auto;
 }
@@ -90,7 +156,6 @@ body {
 #bumic_title {
     font-family:'Lato', sans-serif;
     font-size: 1.64em;
-    font-weight: 500;
     width: 100%;
     color: #2d2e30;
 }
@@ -118,16 +183,25 @@ body {
 }
 
 #news {
-    height: 70vh;
+    min-height: 50vh;
+    height: auto;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
 }
 
+.article {
+    margin: 2em 4em;
+}
+
+.article .title {
+    color: #242628;
+}
+
 #news_pic {
     height: 70vh;
     width: 100%;
-    background-image: url('../image/bg1.jpg');
+    background-image: url('../image/section/news.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -137,6 +211,25 @@ body {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#test {
+    background-color: white;
+}
+
+#members_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/section/members.jpg'); /* general members pic*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.prof {
+    background-color: black;
+    width: 20%;
+    height: 33.33%;
+    float: left;
 }
 
 #teams {
@@ -169,6 +262,14 @@ body {
     background: url(project_default.jpg) no-repeat;
 }*/
 
+#blog_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/section/blog.jpg'); /* general members pic*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #sponsors {
     height: 100vh;
     width: 100%;
@@ -185,4 +286,8 @@ body {
     font-size: .9em;
     letter-spacing: 1px;
     color: #efefef;
+}
+
+.footer-content {
+    padding: 1em;
 }

@@ -41,10 +41,6 @@ h3 a:hover {
     float: left;
 }
 
-#menu {
-    margin: 0% 0% 0% 28%;
-    padding: 0px;
-}
 
 #menu li {
     float: left;
@@ -72,9 +68,10 @@ h3 a:hover {
 }
 
 #social_section {
-    height: 100%;
-    width: 10%;
-    float: left;
+    /* height: 100%; */
+    /* width: 10%; */
+    /* float: left; */
+    flex-direction: row;
 }
 
 #social_section a:hover {

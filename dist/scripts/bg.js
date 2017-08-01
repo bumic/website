@@ -1,3 +1,5 @@
+'use strict';
+
 function rand_int(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -9,9 +11,7 @@ function rand_float(min, max) {
 }
 
 function rand_bg(index) {
-    let bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt',
-        'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6',
-        'yhoj7', 'yhoj9'];
+    var bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt', 'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6', 'yhoj7', 'yhoj9'];
     // bg = halloweeen //if date ==
     // bg = holidays   // if date ==
     // bg = valentines // if date ==
@@ -48,7 +48,7 @@ function rand_bg(index) {
 // }
 
 
-const makeBackground = function () {
+var makeBackground = function makeBackground() {
     return Trianglify({
         height: window.innerHeight,
         width: window.innerWidth,
@@ -63,13 +63,14 @@ const makeBackground = function () {
 
 // document.body.querySelector("#home").style.opacity = 0.9;
 
-const makeBackgroundFor = function (elements) {
+var makeBackgroundFor = function makeBackgroundFor(elements) {
     return elements.forEach(function (t) {
-        let el = document.body.querySelector(t);
+        var el = document.body.querySelector(t);
         el.style.backgroundSize = "cover";
         el.style.backgroundImage = "url(" + makeBackground().png() + ")";
         el.style.backgroundAttachment = "fixed";
-    })
+    });
 };
 
 makeBackgroundFor(["#home", "#projects-pic", "#teams-pic"]);
+//# sourceMappingURL=bg.js.map

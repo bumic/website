@@ -1,0 +1,32 @@
+
+#members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.member-card {
+    width: 15em;
+    position: relative;
+    margin: .5em;
+}
+
+.member-card .member-image {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.20);
+}
+
+.member-card .member-name {
+    position: absolute;
+    bottom: 5px;
+    padding: .5em;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.member-card .member-name h2 {
+    margin: 0;
+}

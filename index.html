@@ -1,4 +1,4 @@
-<html>
+<html xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <title>BUMIC</title>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/main.css">
+
 </head>
 <body>
 <div id="nav-bar">
@@ -88,9 +89,15 @@
         </div>
     </div>
     <div id="news-pic" class="parallax-section"></div>
+    <div class="content-section">
+        <h1 style="text-align: center;">Members</h1>
+        <div id="members">
 
-    <div id="members">
-        Lorem ipsum
+            <div v-for="m in ms" class="member-card">
+                <img v-bind:src="m.pic" class="member-image"/>
+                <div class="member-name"><h2>{{m.name}}</h2></div>
+            </div>
+        </div>
     </div>
     <div id="members-pic" class="parallax-section"></div>
 
@@ -117,7 +124,7 @@
             </p>
         </div>
     </div>
-    <div class="parallax-section"></div>
+    <div id="teams-pic" class="parallax-section"></div>
 
     <div id="projects" class="content-section">
         <h1 align="center">
@@ -176,7 +183,6 @@
     <div id="blog-pic" class="parallax-section"></div>
 
 
-
     <!-- An auto-load video on the front page is a bad idea
     <div id='proj_pic' class='content_section'>
         <video playsinline autoplay muted loop poster="project_default.jpg" id="proj_vid">
@@ -217,7 +223,11 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
+<script src="scripts/trianglify.min.js"></script>
 <script src="scripts/bg.js"></script>
+
+<link rel="stylesheet" href="style/members.css">
+<script src="https://unpkg.com/vue"></script>
+<script src="scripts/members.js"></script>
 </body>
 </html>

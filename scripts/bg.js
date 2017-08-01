@@ -50,7 +50,6 @@ function rand_bg(index) {
 // }
 
 
-
 var makeBackground = function () {
     return Trianglify({
         height: window.innerHeight,
@@ -64,12 +63,15 @@ var makeBackground = function () {
     });
 };
 
-document.body.querySelector("#home").style.backgroundSize = "cover";
-document.body.querySelector("#home").style.backgroundImage = "url(" + makeBackground().png() + ")";
-document.body.querySelector("#home").style.backgroundAttachment = "fixed";
 // document.body.querySelector("#home").style.opacity = 0.9;
 
-// document.body.querySelectorAll(".parallax-section").forEach(function (t) {
-//     console.log("Creating image");
-//     return t.style.backgroundImage = `url(${makeBackground.png()})`;
-// });
+var makeBackgroundFor = function (elements) {
+    return elements.forEach(function (t) {
+        el = document.body.querySelector(t);
+        el.style.backgroundSize = "cover";
+        el.style.backgroundImage = "url(" + makeBackground().png() + ")";
+        el.style.backgroundAttachment = "fixed";
+    })
+};
+
+makeBackgroundFor(["#home", "#projects-pic", "#teams-pic"]);

@@ -11,17 +11,17 @@
 		{
 			"first_name":"Brian",
 			"last_name":"Fakoury",
-			"year":"B.A. 2020, Computer Science",
-			"bio":"",
-			"fun_fact":"",
+			"year":"B.A. 2020, Computer Science, and Neuroscience",
+			"bio":"I'm interested in ML and the MIC for the dissemination of understanding intelligence, and for the emerging ability to solve problems that were previously unsolvable.",
+			"fun_fact":"I play club water polo!",
 			"pic":"brian_fakoury.png"
 		},
 		{
 			"first_name":"Tyrone",
 			"last_name":"Hou",
-			"year":"B.A. 2020, Computer Science",
-			"bio":"",
-			"fun_fact":"",
+			"year":"B.A. 2018, Computer Science",
+			"bio":"I've always been interested in science fiction (especially Isaac Asimov's works) and exploring human intelligence in general, and I'm excited to see where the future with machine learning and AI will take us!",
+			"fun_fact":"In high school, I once played in a three man jazz combo at a local ice cream shop and earned $80 that night.",
 			"pic":"tyrone_hou.png"
 		},
 		{
@@ -43,7 +43,7 @@
 		{
 			"first_name":"Charles",
 			"last_name":"Ma",
-			"year":"B.A. 2020, Computer Science and Finance",
+			"year":"B.A. 2020, Computer Science, and Finance",
 			"bio":"As the only business student on the e-board, I come from a non-traditional background in the context of MIC. However, I foster a keen interest in the tech sector (currently quite ML-oriented), and believe to understand it to the fullest, one should immerse themselves in the technical side in addition to macro-trends.",
 			"fun_fact":"I fence sabre, play ball, lift recreationally, and play piano.",
 			"pic":"charles_ma.png"

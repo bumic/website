@@ -92,10 +92,24 @@
     <div class="content-section">
         <h1 style="text-align: center;">Members</h1>
         <div id="members">
-
-            <div v-for="m in ms" class="member-card">
-                <img v-bind:src="m.pic" class="member-image"/>
-                <div class="member-name"><h2>{{m.name}}</h2></div>
+            <div v-for="m in ms" class="member-card flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img v-bind:src="m.pic" class="member-image"/>
+                        <div class="member-name">
+                            <h2>{{m.name}}</h2></div>
+                    </div>
+                    <div class="back">
+                        <div class="content"><h3>Fun fact</h3>
+                            <p> Blah blah blah lorem ipsum what's sup justin bieber suk</p>
+                            <h3> Why's ML </h3>
+                            <p> Because I want to make mad money duh </p>
+                        </div>
+                        <div class="links">
+                            <a src="#">Github</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

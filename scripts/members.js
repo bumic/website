@@ -15,7 +15,7 @@ const vm = new Vue({
             // Todo: Add adviser's pictures.
             this.ms = json.members.map(t => ({
                 "name": t.first_name + " " + t.last_name,
-                "pic": `image/members/${t.pic}`
+                "pic": `image/members/squared/${t.first_name}.jpg`
             }));
             return this.ms
         })

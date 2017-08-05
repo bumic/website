@@ -13,10 +13,18 @@ const vm = new Vue({
         }).then(json => {
             // Todo: Check for file not file
             // Todo: Add adviser's pictures.
-            this.ms = json.members.map(t => ({
-                "name": t.first_name + " " + t.last_name,
-                "pic": `image/members/squared/${t.first_name.toLowerCase()}.jpg`
-            }));
+            this.ms = json.members
+                .sort((a, b) => {
+                    return (a.first_name.toLowerCase() > b.first_name.toLowerCase()) ? 1 : -1;
+                })
+                .map(t => ({
+                    "name": t.first_name + " " + t.last_name,
+                    "firstName": t.first_name,
+                    "pic": `image/members/squared/${t.first_name.toLowerCase()}.jpg`,
+                    "bio": t.bio,
+                    "funFact": t.fun_fact,
+                    "year": t.year,
+                }));
             return this.ms
         })
     }

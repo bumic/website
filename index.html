@@ -97,18 +97,27 @@
                     <div class="front">
                         <img v-bind:src="m.pic" class="member-image"/>
                         <div class="member-name">
-                            <h2>{{m.name}}</h2></div>
+                            <h2>{{m.name}}</h2>
+                            <span>
+                                {{m.year}}
+                            </span>
+                        </div>
+
                     </div>
+                    <!-- I am holding off on the bio part since I don't yet know how to deal with the length of some of the bio
+
                     <div class="back">
-                        <div class="content"><h3>Fun fact</h3>
-                            <p> Blah blah blah lorem ipsum what's sup justin bieber suk</p>
-                            <h3> Why's ML </h3>
-                            <p> Because I want to make mad money duh </p>
+                        <div class="content"><h3>About {{m.firstName}}:</h3>
+                            <p class="bio">{{m.bio}}</p>
+                            <h3>Fun fact:</h3>
+                            <p>{{m.funFact}}</p>
                         </div>
                         <div class="links">
                             <a src="#">Github</a>
                         </div>
                     </div>
+                    -->
+
                 </div>
             </div>
         </div>

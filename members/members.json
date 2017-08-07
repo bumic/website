@@ -83,7 +83,7 @@
 		{
 			"first_name":"Ibrahim",
 			"last_name":"Shaikh",
-			"year":"B.A. 2019, Computer Science and Economics",
+			"year":"B.A. 2019, Computer Science",
 			"bio":"I study AI because in my opinion it is the perfect catalyst to making the world a better place. Creating an MIC community is important in furthering the knowledge of machine learning as ideas grow and bounce between individuals.",
 			"fun_fact":"My friends call me brown suga.",
 			"pic":"ibrahim_shaikh.jpg"
@@ -111,6 +111,14 @@
 			"bio":"I am interested in artificial intelligence because I find it fascinating and how it is changing every prospective of human life.",
 			"fun_fact":"I still don't know :p",
 			"pic":"arpita_vats.jpg"
+		},
+		{
+			"first_name":"Rex",
+			"last_name":"Wang",
+			"year":"B.S. 2015, Mathematics; M.S. 2017, Computer Science",
+			"bio":"I earned my B.S in Mathematics from Southeast University, and got M.S degree in Computer Science from Boston University. My research interests focus on deep learning, graphical models and statistical learning. Starting in 2017, I will work as a software engineer at Broad Institute of MIT and Harvard.",
+			"fun_fact":"I like traveling and hope to travel all over the world.(30% finished) I also enjoy hiking, skiing, photography and flying drones.",
+			"pic":"rex_wang.png"
 		},
 		{
 			"first_name":"Fiona",

@@ -1,0 +1,74 @@
+/* Navigation bar*/
+
+#nav-bar {
+    margin: 0;
+    padding: 0;
+    height: 2.5em;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* align-content: space-between; */
+    width: 100%;
+}
+
+#menu-section #menu {
+    padding: 0;
+    margin-top: 0;
+}
+
+#social-section {
+    flex-direction: row;
+}
+
+/* BUMIC logo */
+.bumic-logo-wrapper {
+    text-align: center;
+}
+
+.bumic-logo-wrapper #bumic-logo {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+/* Footer */
+.footer-content {
+    margin: 0;
+    vertical-align: text-top;
+    height: 3em;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: #efefef;
+}
+
+/* Parallax and the pic in each */
+.parallax-section {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about-pic {
+    background-image: url('../image/bg0.jpg');
+}
+
+#news-pic {
+    background-image: url('../image/section/news.jpg');
+}
+
+
+#members-pic {
+    background-image: url('../image/section/members.jpg'); /* general members pic*/
+}
+projects-pic {
+    /*To be fill*/
+}
+
+#blog-pic {
+    background-image: url('../image/section/blog.jpg'); /* general members pic*/
+}

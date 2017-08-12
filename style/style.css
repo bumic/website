@@ -1,7 +1,8 @@
 html,
 body {
   height: 100%;
-  font-family: 'Avenir Black', 'Arial Black', sans-serif;
+  font-family: "futura-pt-condensed", sans-serif;
+  /*font-family: 'Avenir Black', 'Arial Black', sans-serif;*/
 }
 
 a {

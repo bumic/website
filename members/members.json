@@ -3,7 +3,7 @@
 		{
 			"first_name": "Justin",
 			"last_name": "Chen",
-			"year": "B.A. 2014, Computer Science; M.A. 2018, Computer Science",
+			"year": "B.A. 2014, Computer Science; M.S. 2018, Computer Science",
 			"bio": "My aunt introduced me to the words robot and artificial intelligence when I was seven. Ever since then, I've dreamt of a comic book-inspired future with super-intelligent machines. When I came to Boston University, I really wanted to study AI, but the classes never aligned with my schedule. I graduated undergrad without every taking any class in AI. What I see in the Machine Intelligence Community is an opportunity for anyone to get into artificial intelligence, learn without the penalty of failure and without the stress of deadlines, meet like-minded people, and foster intellectual curiosity.",
 			"fun_fact": "I've been practicing parkour since 2005 and created the website Parkour Theory.",
 			"pic": "justin_chen.jpg"
@@ -58,7 +58,7 @@
 		},
 		{
 			"first_name": "Anton",
-			"last_name": "Njarvo",
+			"last_name": "Njavro",
 			"year": "B.A. 2020, Computer Science and Statistics",
 			"bio": "I feel pretty lucky to live in this day and age at the beginning of one of the most important innovations in human history, and would certainly like to participate in it.",
 			"fun_fact": "I once managed to stay awake for 40+ hours during the finals period (with help of 9 red bulls)",
@@ -67,7 +67,7 @@
 		{
 			"first_name": "Pratik",
 			"last_name": "Patel",
-			"year": "M.A. 2018, Computer Science",
+			"year": "M.S. 2018, Computer Science",
 			"bio": "",
 			"fun_fact": "",
 			"pic": "pratik_patel.png"
@@ -75,7 +75,7 @@
 		{
 			"first_name": "Tammy",
 			"last_name": "Qiu",
-			"year": "B.A. 2019, Computer Science",
+			"year": "B.A. 2019, Computer Science and Fine Art",
 			"bio": "My name is Tammy Qiu and I am a junior majoring in Graphic Design and Computer Science. I am interested in learning about Artificial Intelligence because I believe that simulating intelligence will help us better understand our own intelligence as well as consciousness.",
 			"fun_fact": "In my free time, I love to paint, read and dance.",
 			"pic": "tammy_qiu.png"
@@ -83,7 +83,7 @@
 		{
 			"first_name": "Ibrahim",
 			"last_name": "Shaikh",
-			"year": "B.A. 2019, Computer Science and Economics",
+			"year": "B.A. 2019, Computer Science",
 			"bio": "I study AI because in my opinion it is the perfect catalyst to making the world a better place. Creating an MIC community is important in furthering the knowledge of machine learning as ideas grow and bounce between individuals.",
 			"fun_fact": "My friends call me brown suga.",
 			"pic": "ibrahim_shaikh.jpg"
@@ -99,7 +99,7 @@
 		{
 			"first_name": "Zezhou",
 			"last_name": "Sun",
-			"year": "M.A. 2017, Computer Science",
+			"year": "M.S. 2017, Computer Science",
 			"bio": "I am interesting in using machine learning to solve data mining problems, and study theories behind machine learning.",
 			"fun_fact": "Enjoy teaching machines to think like humans",
 			"pic": "joe_sun.png"
@@ -107,7 +107,7 @@
 		{
 			"first_name": "Arpita",
 			"last_name": "Vats",
-			"year": "M.A. 2018, Computer Science",
+			"year": "M.S. 2018, Computer Science",
 			"bio": "I am interested in artificial intelligence because I find it fascinating and how it is changing every prospective of human life.",
 			"fun_fact": "I still don't know :p",
 			"pic": "arpita_vats.jpg"
@@ -115,7 +115,7 @@
 		{
 			"first_name": "Fiona",
 			"last_name": "Whittington",
-			"year": "",
+			"year": "B.A. Communications and Computer Science Minor 2019",
 			"bio": "I'm a junior at Boston University studying advertising and computer science. I'm currently the President & Founder of Girls Who Code BU, Head of Student Innovation at BU Spark!, and Director for two record breaking all-female and non-binary hackathons. I'm passionate about science, technology, communications and travel. My dream job would combine my interests in science and technology and my passion for design and innovation with the goal of bettering communities around the world. I'm in MIC because I'm interested in learning how machine learning can be applied to the field of communications.",
 			"fun_fact": "When I'm not working or taking classes, you can find me running on the esplanade, mining for Ethereum, or spending all my money at overpriced Boston coffee shops.",
 			"pic": "fiona_whittington.png"

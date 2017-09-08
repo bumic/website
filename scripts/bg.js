@@ -98,7 +98,7 @@ makeBackgroundFor(["#home", "#team-pic"]);
 window.addEventListener("scroll", ()=> {
     if (window.scrollY > 800) {
         // Make this transition to fade in not abruptly does this.
-        $("#navbar").css("background-color", "rgba(255,255,255,0.8)");
+        $("#navbar").css("background-color", "rgba(255,255,255,0.96)");
     } else {
         $("#navbar").css("background-color", "rgba(255,255,255,0)");
     }

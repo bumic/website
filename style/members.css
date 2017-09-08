@@ -1,0 +1,93 @@
+.members {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+@media(max-width: 425px){
+    .members{
+    	height: 20em;
+		width: 900%;
+    }
+}
+
+.member-card {
+	width: 15em;
+	height: 20em;
+	position: relative;
+	padding: 0.2em 0.2em;
+}
+.member-card .member-image {
+	height: 100%;
+	width: auto;
+	border-radius: 2px;
+	box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.20);
+}
+.member-card .member-name {
+	position: absolute;
+	bottom: 5px;
+	padding: .5em;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+}
+.member-card .member-name h2 {
+	margin: 0;
+}
+.member-card .flipper .back .content .bio {
+	font-size: smaller;
+	padding: 0.5em;
+}
+
+/* --- Flipping cards --- */
+
+
+/* entire container, keeps perspective */
+
+.flip-container {
+	perspective: 1000px;
+}
+
+/* Disable flipping */
+
+
+/*flip the pane when hovered */
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+
+.flipper {
+	height: 100%;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+}
+
+/* hide back of pane during swap */
+
+.front, .back {
+	backface-visibility: hidden;
+	overflow: hidden;
+	height: 100%;
+}
+
+/* front pane, placed above back */
+
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+	/* display: none; */
+}
+
+/* back, initially hidden pane */
+
+.back {
+	transform: rotateY(180deg);
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: scroll;
+}

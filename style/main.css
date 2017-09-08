@@ -1,0 +1,116 @@
+/* BUMIC logo */
+
+#logo-wrapper {
+    text-align: center;
+}
+
+#logo-wrapper #logo {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+#home {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* Parallax and the pic in each */
+.parallax-section {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about-pic {
+    background-image: url('../image/section/bg0.jpg');
+}
+
+#news-pic {
+    background-image: url('../image/section/news.jpg');
+}
+
+
+#members-pic {
+    background-image: url('../image/section/members.jpg'); /* general members pic*/
+}
+projects-pic {
+    /*To be fill*/
+}
+
+#blog-pic {
+    background-image: url('../image/section/blog.jpg'); /* general members pic*/
+}
+
+/* Content section */
+.content-section {
+    padding: 0.5em;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+@media(max-width: 425px){
+    .content-section{
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+}
+
+/* Sponsor section */
+
+.logo-stack {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+img.logo {
+    width: 15em;
+    height: auto;
+    margin: 1em;
+}
+
+img.logo-long {
+    height: auto;
+    width: 90%;
+}
+
+
+/* Team section */
+
+.advisor-info .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.advisor-avatar {
+    height: 10em;
+    margin: 0 1em 0 1em;
+}
+
+.team-info-wrapper {
+    padding: 0em 2em 0em 2em;
+}
+
+header .wrapper{
+    /* background-color: rgba(0,0,0,0.2); */
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+
+/* Calendar section */
+
+div.calendar{
+    margin: 0em 1em 0em 1em;
+}
+
+li.workshop{
+    list-style: none;
+}

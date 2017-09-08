@@ -1,0 +1,292 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "futura-pt-condensed", sans-serif;
+  /*font-family: 'Avenir Black', 'Arial Black', sans-serif;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, a {
+    color: #242628;
+}
+
+h3, a {
+    color: #242628;
+}
+
+h1 a:hover {
+    color: #5b5b5b;
+}
+
+h3 a:hover {
+    color: #5b5b5b;
+}
+
+/* Navigation bar */
+
+header {
+    width: 100%;
+    height: 2.5em;
+    position: fixed;
+    padding: 0 !important;
+    height: auto;
+}
+
+header .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#dummy-div {
+    width: 160px;
+    margin: 0 auto;
+
+}
+
+#nav_bar {
+    margin: 0px;
+    width: 100%;
+    height: 2.5em;
+    position: fixed;
+    /*background-color:rgba(0, 0, 0, 0.05);*/
+}
+
+#menu_section {
+    width: 88%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+#menu-section {
+    list-style-type: none;
+    margin: 0 auto;
+    /* width: 100%; */
+}
+
+
+
+
+#menu li {
+    float: left;
+    display: inline-block
+}
+
+#menu li a {
+    display: block;
+    color: #242628;
+    text-align: center;
+    padding: .75em;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#menu li a:hover {
+    font-weight: 500;
+    color: #5b5b5b;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#social_section {
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#social_section a:hover {
+    font-weight: 500;
+    color: white;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#fb-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#fb-icon img {
+    transition: opacity .7s ease;
+}
+
+#fb-icon img:hover {
+    opacity: 0.5;
+}
+
+#github-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#github-icon img {
+    transition: opacity .7s ease;
+}
+
+#github-icon img:hover {
+    opacity: 0.5;
+}
+
+#mail-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#mail-icon img {
+    transition: opacity .7s ease;
+}
+
+#mail-icon img:hover {
+    opacity: 0.5;
+}
+
+#medium-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#medium-icon img {
+    transition: opacity .7s ease;
+}
+
+#medium-icon img:hover {
+    opacity: 0.5;
+}
+
+#twitter-icon {
+    margin-top: 10px;
+    float: left;
+}
+
+#twitter-icon img {
+    transition: opacity .7s ease;
+}
+
+#twitter-icon img:hover {
+    opacity: 0.5;
+}
+
+/* Content sections */
+
+#content {
+    padding: 0em 3em;
+}
+
+.content_section {
+    padding-top: 1em;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+}
+
+#content_home_center {
+    margin: 13% 25%;
+    height: 25%;
+    width: 50%;
+}
+
+#bumic_logo {
+    padding-left: 5%;
+    height: auto;
+    width: auto;
+}
+
+#bumic_title {
+    font-family:'Lato', sans-serif;
+    font-size: 1.64em;
+    width: 100%;
+    color: #2d2e30;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#about_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/bg0.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.article {
+    margin: 2em 4em;
+}
+
+.article .title {
+    color: #242628;
+}
+
+
+
+#test {
+    background-color: white;
+}
+
+#members_pic {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/section/members.jpg'); /* general members pic*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.prof {
+    background-color: black;
+    width: 20%;
+    height: 33.33%;
+    float: left;
+}
+
+
+
+#projects {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#footer {
+    margin: 0;
+    vertical-align: text-top;
+    height: 3em;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: #efefef;
+}
+
+.footer-content {
+    padding: 1em;
+}
+

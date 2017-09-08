@@ -104,6 +104,10 @@ header .wrapper{
     width: 100%;
 }
 
+header {
+    z-index: 10;
+}
+
 
 /* Calendar section */
 

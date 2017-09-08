@@ -88,23 +88,7 @@
 			"fun_fact": "Enjoy teaching machines to think like humans",
 			"pic": "joe_sun.jpg"
 		},
-		{
-			"first_name": "Arpita",
-			"last_name": "Vats",
-			"year": "M.S. 2018, Computer Science",
-			"bio": "I am interested in artificial intelligence because I find it fascinating and how it is changing every prospective of human life.",
-			"fun_fact": "I still don't know :p",
-			"pic": "arpita_vats.jpg"
-		},
-		{
-			"first_name": "Fiona",
-			"last_name": "Whittington",
-			"year": "B.A. Communications and Computer Science Minor 2019",
-			"bio": "I'm a junior at Boston University studying advertising and computer science. I'm currently the President & Founder of Girls Who Code BU, Head of Student Innovation at BU Spark!, and Director for two record breaking all-female and non-binary hackathons. I'm passionate about science, technology, communications and travel. My dream job would combine my interests in science and technology and my passion for design and innovation with the goal of bettering communities around the world. I'm in MIC because I'm interested in learning how machine learning can be applied to the field of communications.",
-			"fun_fact": "When I'm not working or taking classes, you can find me running on the esplanade, mining for Ethereum, or spending all my money at overpriced Boston coffee shops.",
-			"pic": "fiona_whittington.jpg"
-		},
-		{
+
 			"first_name": "Rex",
 			"last_name": "Wang",
 			"year": "B.S. 2015, Mathematics; M.S. 2017, Computer Science",

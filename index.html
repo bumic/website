@@ -110,7 +110,7 @@
                     <li class="workshop"><b>Transfer Learning </b> (<i>October 17</i>)</li>
                     <li class="workshop"><b>Sequential Data </b> (<i>October 24</i>)</li>
                     <li class="workshop"><b>Deep Reinforcement Learning </b> (<i>October 31</i>)</li>
-                    <li class="workshop"><b>Unsupervised learning </b> (<i>November 14</i>)</li>
+                    <li class="workshop"><b>Unsupervised Learning </b> (<i>November 14</i>)</li>
                     <li class="workshop"><b>Neural Style Transfer </b> (<i>December 12</i>)</li>
                 </ul>
             </div>
@@ -138,15 +138,14 @@
                             <img v-bind:src="m.pic" class="card-img-top"/>
                             <div class="member-name">
                                 <h2>{{m.name}}</h2>
-                                <span>
-												{{m.year}}
-											</span>
+                                <span>{{m.year}}</span>
                             </div>
                         </div>
 
                         <div class="back">
                             <div class="content">
                                 <p class="bio">{{m.bio}}</p>
+                                <p class="bio"><b>Fun fact:</b> {{m.funFact}}</p>
                             </div>
                         </div>
                     </div>
@@ -238,10 +237,17 @@
     </div>
 </div>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-106275569-1', 'auto');
     ga('send', 'pageview');

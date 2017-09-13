@@ -81,11 +81,11 @@ img.logo-long {
 
 header .wrapper{
     /* background-color: rgba(0,0,0,0.2); */
-    padding: 0;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    padding-bottom: 1em;
 }
 
 header {

@@ -29,7 +29,11 @@
     padding: 0.5em;
     height: auto;
     margin: 0 auto;
+    max-width: 1000px;
+}
 
+.content-section h1 {
+    padding-top: 1em;
 }
 
 @media(max-width: 425px){

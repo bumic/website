@@ -47,20 +47,15 @@
 
 .logo-stack {
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    flex-flow: row;
+    justify-content: center;
     margin-bottom: 1em;
 }
 
 img.logo {
-    width: 15em;
+    width: 5em;
     height: auto;
     margin: 1em;
-}
-
-img.logo-long {
-    height: auto;
-    width: 90%;
 }
 
 

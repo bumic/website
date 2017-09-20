@@ -97,3 +97,22 @@ div.calendar{
 li.workshop{
     list-style: none;
 }
+
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+    vertical-align: text-top;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    color: #efefef;
+}
+
+#footer a{
+    color: #efefef;
+    text-decoration: underline;
+}
+.footer-content {
+    padding: 1em;
+}

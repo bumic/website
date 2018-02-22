@@ -1,0 +1,118 @@
+/* BUMIC logo */
+
+#logo-wrapper {
+    text-align: center;
+}
+
+#logo-wrapper #logo {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+#home {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* Parallax and the pic in each */
+.parallax-section {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Content section */
+.content-section {
+    padding: 0.5em;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.content-section h1 {
+    padding-top: 1em;
+}
+
+@media(max-width: 425px){
+    .content-section{
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+}
+
+/* Sponsor section */
+
+.logo-stack {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+img.logo {
+    width: 5em;
+    height: auto;
+    margin: 1em;
+}
+
+
+/* Team section */
+
+.advisor-info .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.advisor-avatar {
+    height: 10em;
+    margin: 0 1em 0 1em;
+}
+
+.team-info-wrapper {
+    padding: 0em 2em 0em 2em;
+}
+
+header .wrapper{
+    /* background-color: rgba(0,0,0,0.2); */
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+header {
+    z-index: 10;
+}
+
+
+/* Calendar section */
+
+div.calendar{
+    margin: 0em 1em 0em 1em;
+}
+
+li.workshop{
+    list-style: none;
+}
+
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+    vertical-align: text-top;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    color: #efefef;
+}
+
+#footer a{
+    color: #efefef;
+    text-decoration: underline;
+}
+.footer-content {
+    padding: 1em;
+}

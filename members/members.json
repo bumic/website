@@ -4,17 +4,19 @@
 			"first_name": "Justin",
 			"last_name": "Chen",
 			"year": "B.A. 2014, Computer Science; M.S. 2018, Computer Science",
-			"bio": "My aunt introduced me to the words robot and artificial intelligence when I was seven. Ever since then, I've dreamt of a comic book-inspired future with super-intelligent machines. When I came to Boston University, I really wanted to study AI, but the classes never aligned with my schedule. I graduated undergrad without every taking any class in AI. What I see in the Machine Intelligence Community is an opportunity for anyone to get into artificial intelligence, learn without the penalty of failure and without the stress of deadlines, meet like-minded people, and foster intellectual curiosity.",
+			"bio": "I want to create a comic-book inspired future. Research interests: AGI, Deep Learning, Democratizing AI, Distributed Learning, Generative Modeling, Manifold Learning, Metaheuristics, Meta Learning, Neuroevolution, Reinforcement Learning",
 			"fun_fact": "I've been practicing parkour since 2005 and created the website Parkour Theory.",
-			"pic": "justin_chen.jpg"
+			"pic": "justin_chen.jpg",
+			"link": "http://cs-people.bu.edu/chenjus/"
 		},
 		{
-			"first_name": "Brian",
-			"last_name": "Fakoury",
-			"year": "B.A. 2020, Computer Science, and Neuroscience",
-			"bio": "I'm interested in ML and the MIC for the dissemination of understanding intelligence, and for the emerging ability to solve problems that were previously unsolvable.",
-			"fun_fact": "I play club water polo!",
-			"pic": "brian_fakoury.png"
+			"first_name": "Rachel",
+			"last_name": "Manzelli",
+			"year": "B.S. 2019, Computer Engineering",
+			"bio": "I believe it's important to not only specialize deeply within a field you take interest in, but also to understand and embrace the diversity of that field. I see in MIC a diverse, curious group of like-minded people buzzing about AI; the community is a great way to learn about different areas of machine learning while contributing back through what I've learned in my focused research projects.",
+			"fun_fact": "I'm a Latin dancer.",
+			"pic": "rachel_manzelli.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Tyrone",
@@ -22,15 +24,17 @@
 			"year": "B.A. 2018, Computer Science",
 			"bio": "I've always been interested in science fiction (especially Isaac Asimov's works) and exploring human intelligence in general, and I'm excited to see where the future with machine learning and AI will take us!",
 			"fun_fact": "In high school, I once played in a three man jazz combo at a local ice cream shop and earned $80 that night.",
-			"pic": "tyrone_hou.png"
+			"pic": "tyrone_hou.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Chloe",
 			"last_name": "Kaubisch",
 			"year": "B.A. 2020, Computer Science",
-			"bio": "I’m an computer science undergraduate from New York. I was introduced to machine learning a few years ago and I’m now primarily interested in natural language processing and computer vision.",
-			"fun_fact": "",
-			"pic": "chloe_kaubisch.jpg"
+			"bio": "I'm an computer science undergraduate from New York. I was introduced to machine learning a few years ago and I'm now primarily interested in natural language processing and computer vision.",
+			"fun_fact": "Too many fun facts to list.",
+			"pic": "chloe_kaubisch.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Jinghu",
@@ -38,7 +42,8 @@
 			"year": "B.A. 2020, Computer Science",
 			"bio": "Interested in ml because of potential possibilities. Want to be involved in the forefront of innovation.",
 			"fun_fact": "Sucks at parkour, trying to learn basketball, get me bubble tea and ill love u for life <3",
-			"pic": "jinghu_lei.jpg"
+			"pic": "jinghu_lei.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Charles",
@@ -46,7 +51,8 @@
 			"year": "B.A. 2020, Computer Science, and Finance",
 			"bio": "As the only business student on the e-board, I come from a non-traditional background in the context of MIC. However, I foster a keen interest in the tech sector (currently quite ML-oriented), and believe to understand it to the fullest, one should immerse themselves in the technical side in addition to macro-trends.",
 			"fun_fact": "I fence sabre, play ball, lift recreationally, and play piano.",
-			"pic": "charles_ma.png"
+			"pic": "charles_ma.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Duy",
@@ -54,23 +60,8 @@
 			"year": "B.A. 2020, Computer Science and Linguistics",
 			"bio": "The reason why I am interested in AI is because I am interested in pushing the limit of what computer can do. More specifically, I wants to further push the capability of machine in Natural Language Processing.",
 			"fun_fact": "Reading Wikipedia for fun",
-			"pic": "duy_nguyen.png"
-		},
-		{
-			"first_name": "Anton",
-			"last_name": "Njavro",
-			"year": "B.A. 2020, Computer Science and Statistics",
-			"bio": "I feel pretty lucky to live in this day and age at the beginning of one of the most important innovations in human history, and would certainly like to participate in it.",
-			"fun_fact": "I once managed to stay awake for 40+ hours during the finals period (with help of 9 red bulls)",
-			"pic": "anton_njarvo.jpg"
-		},
-		{
-			"first_name": "Pratik",
-			"last_name": "Patel",
-			"year": "M.S. 2018, Computer Science",
-			"bio": "",
-			"fun_fact": "",
-			"pic": "pratik_patel.png"
+			"pic": "duy_nguyen.jpg",
+			"link": "http://zkn.io/"
 		},
 		{
 			"first_name": "Tammy",
@@ -78,47 +69,8 @@
 			"year": "B.A. 2019, Computer Science and Fine Art",
 			"bio": "My name is Tammy Qiu and I am a junior majoring in Graphic Design and Computer Science. I am interested in learning about Artificial Intelligence because I believe that simulating intelligence will help us better understand our own intelligence as well as consciousness.",
 			"fun_fact": "In my free time, I love to paint, read and dance.",
-			"pic": "tammy_qiu.png"
-		},
-		{
-			"first_name": "Ibrahim",
-			"last_name": "Shaikh",
-			"year": "B.A. 2019, Computer Science",
-			"bio": "I study AI because in my opinion it is the perfect catalyst to making the world a better place. Creating an MIC community is important in furthering the knowledge of machine learning as ideas grow and bounce between individuals.",
-			"fun_fact": "My friends call me brown suga.",
-			"pic": "ibrahim_shaikh.jpg"
-		},
-		{
-			"first_name": "Colin",
-			"last_name": "Stuart",
-			"year": "B.A. 2018, Neuroscience",
-			"bio": "",
-			"fun_fact": "",
-			"pic": "colin_stuart.png"
-		},
-		{
-			"first_name": "Zezhou",
-			"last_name": "Sun",
-			"year": "M.S. 2017, Computer Science",
-			"bio": "I am interesting in using machine learning to solve data mining problems, and study theories behind machine learning.",
-			"fun_fact": "Enjoy teaching machines to think like humans",
-			"pic": "joe_sun.png"
-		},
-		{
-			"first_name": "Arpita",
-			"last_name": "Vats",
-			"year": "M.S. 2018, Computer Science",
-			"bio": "I am interested in artificial intelligence because I find it fascinating and how it is changing every prospective of human life.",
-			"fun_fact": "I still don't know :p",
-			"pic": "arpita_vats.jpg"
-		},
-		{
-			"first_name": "Fiona",
-			"last_name": "Whittington",
-			"year": "B.A. Communications and Computer Science Minor 2019",
-			"bio": "I'm a junior at Boston University studying advertising and computer science. I'm currently the President & Founder of Girls Who Code BU, Head of Student Innovation at BU Spark!, and Director for two record breaking all-female and non-binary hackathons. I'm passionate about science, technology, communications and travel. My dream job would combine my interests in science and technology and my passion for design and innovation with the goal of bettering communities around the world. I'm in MIC because I'm interested in learning how machine learning can be applied to the field of communications.",
-			"fun_fact": "When I'm not working or taking classes, you can find me running on the esplanade, mining for Ethereum, or spending all my money at overpriced Boston coffee shops.",
-			"pic": "fiona_whittington.png"
+			"pic": "tammy_qiu.jpg",
+			"link": ""
 		},
 		{
 			"first_name": "Rex",
@@ -126,7 +78,8 @@
 			"year": "B.S. 2015, Mathematics; M.S. 2017, Computer Science",
 			"bio": "I earned my B.S in Mathematics from Southeast University, and got M.S degree in Computer Science from Boston University. My research interests focus on deep learning, graphical models and statistical learning. Starting in 2017, I will work as a software engineer at Broad Institute of MIT and Harvard.",
 			"fun_fact": "I like traveling and hope to travel all over the world.(30% finished) I also enjoy hiking, skiing, photography and flying drones.",
-			"pic": "rex_wang.png"
+			"pic": "rex_wang.jpg",
+			"link": ""
 		}
 	],
 	"advisors": [

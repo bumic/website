@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   font-family: "futura-pt-condensed", sans-serif;
   /*font-family: 'Avenir Black', 'Arial Black', sans-serif;*/
 }
@@ -25,6 +26,28 @@ h3 a:hover {
     color: #5b5b5b;
 }
 
+/* Navigation bar */
+
+header {
+    width: 100%;
+    height: 2.5em;
+    position: fixed;
+    padding: 0 !important;
+    height: auto;
+}
+
+header .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#dummy-div {
+    width: 160px;
+    margin: 0 auto;
+
+}
+
 #nav_bar {
     margin: 0px;
     width: 100%;
@@ -42,10 +65,14 @@ h3 a:hover {
     float: left;
 }
 
-#menu {
-    margin: 0% 0% 0% 28%;
-    padding: 0px;
+#menu-section {
+    list-style-type: none;
+    margin: 0 auto;
+    /* width: 100%; */
 }
+
+
+
 
 #menu li {
     float: left;
@@ -73,9 +100,9 @@ h3 a:hover {
 }
 
 #social_section {
-    height: 100%;
-    width: 12%;
-    float: left;
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 #social_section a:hover {
@@ -157,12 +184,14 @@ h3 a:hover {
     opacity: 0.5;
 }
 
+/* Content sections */
+
 #content {
     padding: 0em 3em;
 }
 
 .content_section {
-    padding-top: 4em;
+    padding-top: 1em;
 }
 
 #home {
@@ -196,12 +225,6 @@ h3 a:hover {
     width: 100%;
 }
 
-#about {
-    min-height: 40vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #about_pic {
     height: 70vh;
@@ -211,13 +234,7 @@ h3 a:hover {
     background-attachment: fixed;
 }
 
-#news {
-    min-height: 50vh;
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .article {
     margin: 2em 4em;
@@ -227,20 +244,7 @@ h3 a:hover {
     color: #242628;
 }
 
-#news_pic {
-    height: 70vh;
-    width: 100%;
-    background-image: url('../image/section/news.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-#members {
-    height: 220vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #test {
     background-color: white;
@@ -261,12 +265,7 @@ h3 a:hover {
     float: left;
 }
 
-#teams {
-    height: 70vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 #projects {
     height: 100vh;
@@ -275,39 +274,7 @@ h3 a:hover {
     background-attachment: fixed;
 }
 
-#proj_pic {
-    height: 70vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-#blog_pic {
-    height: 70vh;
-    width: 100%;
-    background-image: url('../image/section/blog.jpg'); /* general members pic*/
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-#sponsors {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-#footer {
-    margin: 0;
-    vertical-align: text-top;
-    height: 3em;
-    width: 100%;
-    background-color: #282828;
-    font-size: .9em;
-    letter-spacing: 1px;
-    color: #efefef;
-}
 
-.footer-content {
-    padding: 1em;
-}

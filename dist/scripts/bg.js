@@ -1,3 +1,5 @@
+'use strict';
+
 function rand_int(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -9,9 +11,7 @@ function rand_float(min, max) {
 }
 
 function rand_bg(index) {
-    let bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt',
-        'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6',
-        'yhoj7', 'yhoj9'];
+    var bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt', 'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6', 'yhoj7', 'yhoj9'];
     // bg = halloweeen //if date ==
     // bg = holidays   // if date ==
     // bg = valentines // if date ==
@@ -29,6 +29,16 @@ function rand_bg(index) {
 
 // Can customize color pattern:
 // https://www.npmjs.com/package/trianglify
+var pattern = Trianglify({
+    height: window.innerHeight,
+    width: window.innerWidth,
+    seed: rand_bg(rand_int(0, 14)),
+    x_colors: 'random',
+    y_colors: 'match_x',
+    variance: rand_float(.7, 1),
+    stroke_width: rand_float(1, 5),
+    cell_size: rand_int(40, 200)
+});
 
 // var today = new Date();
 
@@ -46,9 +56,13 @@ function rand_bg(index) {
 //   stroke_width: rand_float(1, 5),
 //   cell_size: rand_int(40, 200)});
 // }
+//
+// document.body.querySelector("#home").style.backgroundSize = "cover";
+// document.body.querySelector("#home").style.backgroundImage =  "url(" + pattern.png() + ")";
+// document.body.querySelector("#home").style.backgroundAttachment = "fixed";
+// // document.body.querySelector("#home").style.opacity = 0.9;
 
-
-const makeBackground = function () {
+var makeBackground = function makeBackground() {
     return Trianglify({
         height: window.innerHeight,
         width: window.innerWidth,
@@ -61,15 +75,26 @@ const makeBackground = function () {
     });
 };
 
-// document.body.querySelector("#home").style.opacity = 0.9;
-
-const makeBackgroundFor = function (elements) {
+var makeBackgroundFor = function makeBackgroundFor(elements) {
     return elements.forEach(function (t) {
-        let el = document.body.querySelector(t);
+        var el = document.body.querySelector(t);
         el.style.backgroundSize = "cover";
         el.style.backgroundImage = "url(" + makeBackground().png() + ")";
         el.style.backgroundAttachment = "fixed";
-    })
+    });
 };
 
-makeBackgroundFor(["#home", "#projects-pic", "#teams-pic"]);
+makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic"]);
+
+// One for the nav bar fading in
+
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 800) {
+        // Make this transition to fade in not abruptly does this.
+        $("#navbar").css("background-color", "rgba(255,255,255,0.96)");
+    } else {
+        $("#navbar").css("background-color", "rgba(255,255,255,0)");
+    }
+});
+//# sourceMappingURL=bg.js.map

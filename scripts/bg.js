@@ -78,7 +78,6 @@ const makeBackground = function () {
 };
 
 
-
 const makeBackgroundFor = function (elements) {
     return elements.forEach(function (t) {
         let el = document.body.querySelector(t);
@@ -88,14 +87,19 @@ const makeBackgroundFor = function (elements) {
     })
 };
 
-makeBackgroundFor(["#home", "#team-pic"]);
-
+makeBackgroundFor([
+    "#home",
+    "#about-pic",
+    "#news-pic",
+    "#members-pic",
+    "#team-pic"
+]);
 
 
 // One for the nav bar fading in
 
 
-window.addEventListener("scroll", ()=> {
+window.addEventListener("scroll", () => {
     if (window.scrollY > 800) {
         // Make this transition to fade in not abruptly does this.
         $("#navbar").css("background-color", "rgba(255,255,255,0.96)");

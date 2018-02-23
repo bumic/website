@@ -24,6 +24,7 @@ const vm = new Vue({
                     "bio": t.bio,
                     "funFact": t.fun_fact,
                     "year": t.year,
+                    "link": t.link
                 }));
             return this.ms
         })

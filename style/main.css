@@ -24,32 +24,16 @@
     background-attachment: fixed;
 }
 
-#about-pic {
-    background-image: url('../image/section/bg0.jpg');
-}
-
-#news-pic {
-    background-image: url('../image/section/news.jpg');
-}
-
-
-#members-pic {
-    background-image: url('../image/section/members.jpg'); /* general members pic*/
-}
-projects-pic {
-    /*To be fill*/
-}
-
-#blog-pic {
-    background-image: url('../image/section/blog.jpg'); /* general members pic*/
-}
-
 /* Content section */
 .content-section {
     padding: 0.5em;
     height: auto;
     margin: 0 auto;
+    max-width: 1000px;
+}
 
+.content-section h1 {
+    padding-top: 1em;
 }
 
 @media(max-width: 425px){
@@ -63,20 +47,15 @@ projects-pic {
 
 .logo-stack {
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    flex-flow: row;
+    justify-content: center;
     margin-bottom: 1em;
 }
 
 img.logo {
-    width: 15em;
+    width: 5em;
     height: auto;
     margin: 1em;
-}
-
-img.logo-long {
-    height: auto;
-    width: 90%;
 }
 
 
@@ -97,11 +76,11 @@ img.logo-long {
 
 header .wrapper{
     /* background-color: rgba(0,0,0,0.2); */
-    padding: 0;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    padding-bottom: 1em;
 }
 
 header {
@@ -117,4 +96,23 @@ div.calendar{
 
 li.workshop{
     list-style: none;
+}
+
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+    vertical-align: text-top;
+    width: 100%;
+    background-color: #282828;
+    font-size: .9em;
+    color: #efefef;
+}
+
+#footer a{
+    color: #efefef;
+    text-decoration: underline;
+}
+.footer-content {
+    padding: 1em;
 }

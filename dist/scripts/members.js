@@ -24,7 +24,9 @@ var vm = new Vue({
                     "pic": "image/members/square2/" + t.pic,
                     "bio": t.bio,
                     "funFact": t.fun_fact,
-                    "year": t.year
+                    "year": t.year,
+                    "link": t.link,
+                    "title": t.title
                 };
             });
             return _this.ms;

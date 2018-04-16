@@ -18,7 +18,7 @@ const vm = new Vue({
                     return (a.first_name.toLowerCase() > b.first_name.toLowerCase()) ? 1 : -1;
                 })
                 .map(t => ({
-                    "name": t.first_name + " " + t.last_name,
+                    "name": t.first_name + " " + t.last_name + " ("+t.title+")",
                     "firstName": t.first_name,
                     "pic": `image/members/square2/${t.pic}`,
                     "bio": t.bio,

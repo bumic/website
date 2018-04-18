@@ -8,7 +8,7 @@
 			"fun_fact": "I've been practicing parkour since 2005 and created the website Parkour Theory.",
 			"pic": "justin_chen.jpg",
 			"link": "http://cs-people.bu.edu/chenjus/",
-			"title": "Parkour Kid"
+			"title": "Parkour Kid <Alumnus>"
 		},
 		{
 			"first_name": "Rachel",
@@ -77,7 +77,7 @@
 			"bio": "My name is Tammy Qiu and I am a junior majoring in Graphic Design and Computer Science. I am interested in learning about Artificial Intelligence because I believe that simulating intelligence will help us better understand our own intelligence as well as consciousness.",
 			"fun_fact": "In my free time, I love to paint, read and dance.",
 			"pic": "tammy_qiu.jpg",
-			"title": "Design & Branding",
+			"title": "Design & Branding <Alumnae>",
 			"link":"https://tqiu.myportfolio.com/"
 		},
 		{
@@ -88,7 +88,7 @@
 			"fun_fact": "I like traveling and hope to travel all over the world.(30% finished) I also enjoy hiking, skiing, photography and flying drones.",
 			"pic": "rex_wang.jpg",
 			"link": "https://github.com/rexwangcc",
-			"title": "alumnus"
+			"title": "<Alumnus>"
 		}
 	],
 	"advisors": [

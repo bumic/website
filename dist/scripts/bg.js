@@ -84,7 +84,7 @@ var makeBackgroundFor = function makeBackgroundFor(elements) {
     });
 };
 
-makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic"]);
+makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
 
 // One for the nav bar fading in
 

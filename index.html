@@ -154,14 +154,15 @@
                             <div class="front">
                                 <img v-bind:src="m.pic" class="card-img-top" />
                                 <div class="member-name">
-                                    <h2>{{m.name}}</h2>
+                                    <h3>{{m.name}}</h3>
                                     <h4><em>{{m.title}}</em></h4>
-                                    <span>{{m.year}}</span>
+                                    
                                 </div>
                             </div>
 
                             <div class="back">
                                 <div class="content">
+                                    <h5>{{m.year}}</h5>
                                     <p class="bio">{{m.bio}}</p>
                                     <p class="bio"><b>Fun fact:</b> {{m.funFact}}</p>
                                     <p class="bio"><b>Website:</b> <a v-bind:href="m.link">{{m.link}}</a></p>
@@ -177,23 +178,28 @@
 
         <div id="members-pic" class="parallax-section"></div>
 
+        <!-- Researches section -->
         <div class="content-section">
             <h1 align="center">
                 RESEARCHES
             </h1>
             
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-
-                </div>
-            </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3>Conditioning Deep Generative Raw Audio Models for Structured Automatic Music</h3>
+                        <em>by <a>Rachel Manzelli</a> - 2017</em>
+                        <p>Existing automatic music generation approaches that feature deep learning can be broadly classified into two types: raw audio models and symbolic models. Symbolic models, which train and generate at the note level, are currently the more prevalent approach; these models can capture long term dependencies of melodic structure, but fail to grasp the nuances and richness of raw audio generations. Raw audio models, such as DeepMind's WaveNet, train directly on sampled audio waveforms, allowing them to produce realistic-sounding, albeit unstructured music. We propose an automatic music generation methodology combining both of these approaches to create structured, realistic-sounding compositions. We consider a Long Short Term Memory network to learn the melodic structure of different styles of music, and then use the unique symbolic generations from this model as a conditioning input to a WaveNet-based raw audio generator, creating a model for automatic, novel music.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3>Hyper Distributed Stochastic Gradient Descent</h3>
+                        <em>by <a>Justin Chen</a> - 2018</em>
+                        <p>To enable training of deep models on large datasets, learning algorithms must be distributed. Although current state-of-the-art can train on ImageNet in minutes, we push distributed gradient-based optimization to the extemes. We introduce a novel distributed hybrid, globally asynchronous, locally-synchronous non-convex optimization algorithm for large-scale training. Nodes in the computation, which we refer to as peers, stochastically and independently organize into cliques that each compute a synchronous gradient step across different points in parameter space. The resultant communication topology forms a hypergraph over all peers. We call our algorithm Hypergraph Distributed Stochastic Gradient Descent. Additionally, we developed a minimalist distributed gradient-based learning framework, Simultaneous Multi-Party Learning (SMPL), pronounced [sim-puh l].</p>
+                    </div>
+                </div>     
 
         </div>
 
-        <div id-"research-pic" class="parallax-section"></div>
+        <div id="research-pic" class="parallax-section"></div>
 
 
         <!-- Teams section -->

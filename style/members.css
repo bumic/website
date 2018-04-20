@@ -31,14 +31,22 @@
 	color: white;
 	background: rgba(0, 0, 0, 0.7);
 }
-.member-card .member-name h2 {
+.member-card .member-name h3 {
 	margin: 0;
 }
 .member-card .flipper .back .content .bio {
 	font-size: smaller;
 	padding: 0.5em;
+}	
+
+
+.member-name {
+    width: 100%;
 }
 
+.member-name h3 {
+    color: white;
+}
 /* --- Flipping cards --- */
 
 

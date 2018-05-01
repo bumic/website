@@ -18,7 +18,7 @@
 			"fun_fact": "I'm a Latin dancer.",
 			"pic": "rachel_manzelli.jpg",
 			"link": "https://github.com/manzelli",
-			"title": "Technical Lead"
+			"title": "Co-President"
 		},
 		{
 			"first_name": "Tyrone",
@@ -28,7 +28,7 @@
 			"fun_fact": "In high school, I once played in a three man jazz combo at a local ice cream shop and earned $80 that night.",
 			"pic": "tyrone_hou.jpg",
 			"link": "https://github.com/tyronehou",
-			"title": "Internal Operations"
+			"title": "Co-President"
 		},
 		{
 			"first_name": "Chloe",
@@ -38,7 +38,7 @@
 			"fun_fact": "Too many fun facts to list.",
 			"pic": "chloe_kaubisch.jpg",
 			"link": "https://github.com/chloenayon",
-			"title": "Sponsorship & PR"
+			"title": "Treasurer"
 		},
 		{
 			"first_name": "Jinghu",
@@ -48,7 +48,7 @@
 			"fun_fact": "Sucks at parkour, trying to learn basketball, get me bubble tea and ill love u for life <3",
 			"pic": "jinghu_lei.jpg",
 			"link": "https://github.com/jinghul",
-			"title": "Communications"
+			"title": "Social Media"
 		},
 		{
 			"first_name": "Charles",
@@ -58,7 +58,7 @@
 			"fun_fact": "I fence sabre, play ball, lift recreationally, and play piano.",
 			"pic": "charles_ma.jpg",
 			"link": "https://github.com/charlesma4",
-			"title": "Treasurer & PR"
+			"title": "Corporate Relations"
 		},
 		{
 			"first_name": "Duy",
@@ -68,7 +68,7 @@
 			"fun_fact": "Reading Wikipedia for fun",
 			"pic": "duy_nguyen.jpg",
 			"link": "https://zkn.io/",
-			"title": "Secretary General"
+			"title": ""
 		},
 		{
 			"first_name": "Tammy",
@@ -98,7 +98,7 @@
 			"fun_fact": "I was in a rock band that won a city wide competition in South Korea. I also love parkour, skiing, and playing guitar.",
 			"link": "https://github.com/juliusfrost",
 			"pic": "julius_frost.jpg",
-			"title":"　　　　　　　　　　　　"
+			"title":"Web Developer"
 		},
 		{
 			"first_name": "Devin",
@@ -108,7 +108,7 @@
 			"fun_fact": "",
 			"link":"",
 			"pic":"devin_de_hueck.jpg",
-			"title":""
+			"title":"Technical Lead"
 		}
 	],
 	"advisors": [

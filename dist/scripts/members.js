@@ -1,7 +1,7 @@
 "use strict";
 
 var members = [{
-    pic: "https://unsplash.it/300/300", name: "Justin Bieber"
+    pic: "", name: ""
 }];
 
 var vm = new Vue({

@@ -1,6 +1,6 @@
 const members = [
     {
-        pic: "https://unsplash.it/300/300", name: "Justin Bieber"
+        pic: "", name: ""
     }
 ];
 

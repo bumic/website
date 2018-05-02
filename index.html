@@ -38,7 +38,7 @@
                         <a href="#research">RESEARCH</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#teams">TEAMS</a>
+                        <a href="#teams">ADVISORS</a>
                     </li>
                     <li class="nav-item">
                         <a href="#sponsors">SPONSORS</a>
@@ -91,11 +91,10 @@
             <div class="article">
                 <p>Boston University Machine Intelligence Community is an organization focused on providing opportunities for
                     undergraduate and graduate students to learn about machine intelligence in a community environment. As
-                    a brief history, MIC was founded originally as a research reading group at MIT in 2016 after being inspired
-                    by the AlphaGo versus Lee Sedol match, and was brought to BU late last semester.</p>
+                    a brief history, MIC was founded as a research paper discussion group at MIT in 2016 after being inspired
+                    by the AlphaGo versus Lee Sedol match, and was brought to BU in April 2017.</p>
                 <p>
-                    We are a student-led research group sponsored by Boston University's Rafik B. Hariri Institute for Computing and Computational
-                    Science and Engineering, BU Software Application and Innovation Lab (SAIL), and BU Spark.
+                    We are a student-led research group sponsored by Boston University's Rafik B. Hariri Institute for Computing and Computational Science and Engineering, BU Software Application and Innovation Lab (SAIL), and BU Spark.
                 </p>
             </div>
         </div>
@@ -156,8 +155,7 @@
                             <b>Research Paper Discussions</b>
                             <p>
                                 Weekly student-led presentation and discussion covering recent research papers. Checkout our
-                                <a
-                                    href='https://github.com/bumic/summaries'>content on GitHub</a>.
+                                <a style="color:#169BE1" href='https://github.com/bumic/summaries'>content on GitHub</a>.
                             </p>
                     </ul>
                 </div>
@@ -215,10 +213,10 @@
 
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3>Conditioning Deep Generative Raw Audio Models for Structured Automatic Music</h3>
-                    <em>by
-                        <a>Rachel Manzelli</a> - 2017</em>
-                    <p>Existing automatic music generation approaches that feature deep learning can be broadly classified into
+                    <h4>Conditioning Deep Generative Raw Audio Models for Structured Automatic Music</h4>
+                    <em><a>Rachel Manzelli</a>, 2017</em>
+                    <p class="research-desc">
+                        Existing automatic music generation approaches that feature deep learning can be broadly classified into
                         two types: raw audio models and symbolic models. Symbolic models, which train and generate at the
                         note level, are currently the more prevalent approach; these models can capture long term dependencies
                         of melodic structure, but fail to grasp the nuances and richness of raw audio generations. Raw audio
@@ -230,18 +228,17 @@
                         raw audio generator, creating a model for automatic, novel music.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3>Hyper Distributed Stochastic Gradient Descent</h3>
-                    <em>by
-                        <a>Justin Chen</a> - 2018</em>
-                    <p>To enable training of deep models on large datasets, learning algorithms must be distributed. Although
-                        current state-of-the-art can train on ImageNet in minutes, we push distributed gradient-based optimization
-                        to the extemes. We introduce a novel distributed hybrid, globally asynchronous, locally-synchronous
+                    <h4>Hypergraph Distributed Stochastic Gradient Descent</h4>
+                    <em><a>Justin Chen</a>, 2018</em>
+                    <p class="research-desc">
+                        To enable training of deep models on large datasets, learning algorithms must be distributed. Although current state-of-the-art can train on ImageNet in minutes, we push distributed gradient-based optimization
+                        to the extemes. We introduce a novel distributed hybrid, globally-asynchronous, locally-synchronous
                         non-convex optimization algorithm for large-scale training. Nodes in the computation, which we refer
                         to as peers, stochastically and independently organize into cliques that each compute a synchronous
                         gradient step across different points in parameter space. The resultant communication topology forms
                         a hypergraph over all peers. We call our algorithm Hypergraph Distributed Stochastic Gradient Descent.
-                        Additionally, we developed a minimalist distributed gradient-based learning framework, Simultaneous
-                        Multi-Party Learning (SMPL), pronounced [sim-puh l].</p>
+                        Additionally, we developed a minimalist distributed gradient-based learning framework, <span style="font-style:italic">Simultaneous
+                        Multi-Party Learning</span> (SMPL), pronounced <span style="font-size:0.875em">[sim-puh l]</span>.</p>
                 </div>
             </div>
 
@@ -253,57 +250,35 @@
         <!-- Teams section -->
         <div id="teams" class="content-section">
             <h1 align="center">
-                TEAMS
+                ADVISORS
             </h1>
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 team-info-wrapper">
-
-                    <div class="team-info">
-                        <h3>Content Creation</h3>
-                        <p>Writings blogs, workshops, and other materials.</p>
-                    </div>
-                    <div class="team-info">
-                        <h3>External Liaison</h3>
-                        <p>Manage BUMIC’s relationship with sponsors, companies and other entity outside of the Boston University
-                            community.
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img style="float:left" class="advisor-avatar" src="image/advisors/kate.jpg" />
+                    <div class="advisor-bio">
+                        <h4>
+                            <a href="http://ai.bu.edu/">Kate Saenko</a>
+                        </h4>
+                        <p>
+                            My research interests are in the broad area of Artificial Intelligence with a focus on Adaptive
+                            Machine Learning, Learning for Vision and Language Understanding, and Deep Learning. I am
+                            also part of the Artificial Intelligence Research initiative at BU, formed in the fall of
+                            2017 with the goal of promoting AI research and education in the BU community.
                         </p>
                     </div>
-                    <div class="team-info">
-                        <h3>Internal Liaison</h3>
-                        <p>Manage BUMIC's relationship with Boston University community.</p>
-                    </div>
-                    <div class="team-info">
-                        <h3>Technology/Web design</h3>
-                        <p>Setting up the technologies and maintain the website.</p>
-                    </div>
-
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 advisor-info">
-                    <h3>Advisors</h3>
-                    <div class="wrapper">
-                        <img class="advisor-avatar" src="image/advisors/andrei.jpg" />
-                        <div class="advisor-bio">
-                            <h4>
-                                <a href="http://cs-people.bu.edu/lapets/">Andrei Lapets</a>
-                            </h4>
-                            <p>Advances in machine learning will have wide-ranging effects on the computational sciences and
-                                society at large, and in particular with regard to privacy and cybersecurity. Building interest
-                                and awareness on this topic is essential for both productive and responsible engagement with
-                                this re-emerging area of research.</p>
-                        </div>
-                    </div>
-                    <div class="wrapper">
-                        <img class="advisor-avatar" src="image/advisors/kate.jpg" />
-                        <div class="advisor-bio">
-                            <h4>
-                                <a href="http://ai.bu.edu/">Kate Saenko</a>
-                            </h4>
-                            <p>My research interests are in the broad area of Artificial Intelligence with a focus on Adaptive
-                                Machine Learning, Learning for Vision and Language Understanding, and Deep Learning. I am
-                                also part of the Artificial Intelligence Research initiative at BU, formed in the fall of
-                                2017 with the goal of promoting AI research and education in the BU community.
-                            </p>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img style="float:left" class="advisor-avatar" src="image/advisors/andrei.jpg" />
+                    <div class="advisor-bio">
+                        <h4>
+                            <a href="http://cs-people.bu.edu/lapets/">Andrei Lapets</a>
+                        </h4>
+                        <p>
+                            Advances in machine learning will have wide-ranging effects on the computational sciences and
+                            society at large, and in particular with regard to privacy and cybersecurity. Building interest
+                            and awareness on this topic is essential for both productive and responsible engagement with
+                            this re-emerging area of research.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -318,7 +293,6 @@
                 SPONSORS
             </h1>
             <div class="logo-stack">
-                <!-- As we put more sponsor, we will reduce this and line them up. This is frankly a terrible hack but we haven't got much time to do much good thing with this. -->
                 <div>
                     <a href="https://www.bu.edu/cs/">
                         <img class="logo" src="image/logo/bu_cs_logo.jpg" />
@@ -330,11 +304,6 @@
                         <img class="logo" src="image/logo/sail.png" />
                     </a>
                 </div>
-                <!-- <div class="col-lg-6 col-md-6 col-sm-12"> -->
-
-                <!-- </div> -->
-                <!-- <img class="logo-long" src="image/logo/hariri.png"/> -->
-
             </div>
         </div>
 
@@ -344,9 +313,6 @@
             <div class="col-lg-8 col-md-8 col-sm-12">
                 Boston University | 111 Cummington Mall, Boston MA 02215
             </div>
-            <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
-            <!-- Our logo was designed by <a href="https://tqiu.myportfolio.com/">Tammy Qiu</a>, website design by <a href="http://cs-people.bu.edu/chenjus/">Justin Chen</a> and <a href="http://zkn.io/">Duy Nguyen</a>. -->
-            <!-- </div> -->
         </div>
     </div>
     <script>

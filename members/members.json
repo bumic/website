@@ -103,10 +103,10 @@
 		{
 			"first_name": "Devin",
 			"last_name": "de Hueck",
-			"year": "B.A. 2021, Computer Science",
-			"bio": "",
-			"fun_fact": "",
-			"link":"",
+			"year": "B.A. 2021, Mathematics and Computer Science",
+			"bio": "AI will touch every aspect of our society sooner than people think. Because of this, I believe it is necessary to work towards ensuring this future benefits everyone. With this in mind, my research interests are focused on multitask networks, neuroevolution, and transfer learning. Within MIC, I hope to help advance our mission of democratizing AI and growing a diverse community of researchers.",
+			"fun_fact": "All of them.",
+			"link":"https://github.com/ddehueck",
 			"pic":"devin_de_hueck.jpg",
 			"title":"Technical Lead"
 		}

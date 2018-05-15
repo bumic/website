@@ -86,9 +86,18 @@ var makeBackgroundFor = function makeBackgroundFor(elements) {
 
 makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
 
+var changeMargins = function() {
+	var header_height = document.body.children[0].getBoundingClientRect().height;
+	var content = document.getElementsByClassName("content-section");
+	for (var i = 0; i < content.length; i++) {
+		content[i].style.marginTop = -(header_height-1) + "px";
+		content[i].style.paddingTop = header_height + "px";
+	}
+}
+window.onresize = changeMargins
+window.onload = changeMargins
+
 // One for the nav bar fading in
-
-
 window.addEventListener("scroll", function () {
 	// might need more optimization
 	var end = home.getBoundingClientRect().height - document.body.children[0].getBoundingClientRect().height;

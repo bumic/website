@@ -1,19 +1,17 @@
+'use strict';
+
 function rand_int(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min; //[min, max)
 }
 
-
 function rand_float(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-
 function rand_bg(index) {
-    let bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt',
-        'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6',
-        'yhoj7', 'yhoj9'];
+    var bg = ['nhqip', '3fp01', '3fp00', 'yhojm', 'yhojp', 'yhojt', 'yhojw', 'yhojx', 'yhojy', 'yhoj3', 'yhoj4', 'yhoj6', 'yhoj7', 'yhoj9'];
     // bg = halloweeen //if date ==
     // bg = holidays   // if date ==
     // bg = valentines // if date ==
@@ -31,7 +29,7 @@ function rand_bg(index) {
 
 // Can customize color pattern:
 // https://www.npmjs.com/package/trianglify
-let pattern = Trianglify({
+var pattern = Trianglify({
     height: window.innerHeight,
     width: window.innerWidth,
     seed: rand_bg(rand_int(0, 14)),
@@ -64,7 +62,7 @@ let pattern = Trianglify({
 // document.body.querySelector("#home").style.backgroundAttachment = "fixed";
 // // document.body.querySelector("#home").style.opacity = 0.9;
 
-const makeBackground = function () {
+var makeBackground = function makeBackground() {
     return Trianglify({
         height: window.innerHeight,
         width: window.innerWidth,
@@ -77,33 +75,30 @@ const makeBackground = function () {
     });
 };
 
-
-const makeBackgroundFor = function (elements) {
+var makeBackgroundFor = function makeBackgroundFor(elements) {
     return elements.forEach(function (t) {
-        let el = document.body.querySelector(t);
+        var el = document.body.querySelector(t);
         el.style.backgroundSize = "cover";
         el.style.backgroundImage = "url(" + makeBackground().png() + ")";
         el.style.backgroundAttachment = "fixed";
-    })
+    });
 };
 
-makeBackgroundFor([
-    "#home",
-    "#about-pic",
-    "#news-pic",
-    "#members-pic",
-    "#team-pic"
-]);
-
+makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
 
 // One for the nav bar fading in
 
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 800) {
+window.addEventListener("scroll", function () {
+	// might need more optimization
+	var end = home.getBoundingClientRect().height - document.body.children[0].getBoundingClientRect().height;
+    var location = window.scrollY;
+    if (location > end) {
         // Make this transition to fade in not abruptly does this.
         $("#navbar").css("background-color", "rgba(255,255,255,0.96)");
     } else {
-        $("#navbar").css("background-color", "rgba(255,255,255,0)");
+    	var alpha = location / end * 0.96
+        $("#navbar").css("background-color", "rgba(255,255,255,"+alpha+")");
     }
 });
+//# sourceMappingURL=bg.js.map

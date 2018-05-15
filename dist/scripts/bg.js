@@ -90,11 +90,15 @@ makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pi
 
 
 window.addEventListener("scroll", function () {
-    if (window.scrollY > 800) {
+	// might need more optimization
+	var end = home.getBoundingClientRect().height - document.body.children[0].getBoundingClientRect().height;
+    var location = window.scrollY;
+    if (location > end) {
         // Make this transition to fade in not abruptly does this.
         $("#navbar").css("background-color", "rgba(255,255,255,0.96)");
     } else {
-        $("#navbar").css("background-color", "rgba(255,255,255,0)");
+    	var alpha = location / end * 0.96
+        $("#navbar").css("background-color", "rgba(255,255,255,"+alpha+")");
     }
 });
 //# sourceMappingURL=bg.js.map

@@ -172,41 +172,38 @@
 
         <!-- Members section -->
 
-        <div id="members" class="content_section">
-            <div class="content-section">
-                <h1 style="text-align: center;">Members</h1>
-                <div class="members">
-                    <div v-for="m in ms" class="member-card flip-container">
-                        <div class="flipper">
+        <div id="members" class="content-section">
+            <h1 style="text-align: center;">Members</h1>
+            <div class="members">
+                <div v-for="m in ms" class="member-card flip-container">
+                    <div class="flipper">
 
-                            <div class="front">
-                                <img v-bind:src="m.pic" class="card-img-top" />
-                                <div class="member-name">
-                                    <h5>{{m.name}}</h5>
-                                    <h6>
-                                        <em>{{m.title}}</em>
-                                    </h6>
+                        <div class="front">
+                            <img v-bind:src="m.pic" class="card-img-top" />
+                            <div class="member-name">
+                                <h5>{{m.name}}</h5>
+                                <h6>
+                                    <em>{{m.title}}</em>
+                                </h6>
 
-                                </div>
                             </div>
+                        </div>
 
-                            <div class="back">
-                                <div class="content">
-                                    <p class="bio"><b>{{m.year}}</b></p>
-                                    <p class="bio">{{m.bio}}</p>
-                                    <p class="bio">
-                                        <b>Fun fact:</b> {{m.funFact}}</p>
-                                    <p class="bio">
-                                        <b>Website:</b>
-                                        <a v-bind:href="m.link">{{m.link}}</a>
-                                    </p>
-                                </div>
+                        <div class="back">
+                            <div class="content">
+                                <p class="bio"><b>{{m.year}}</b></p>
+                                <p class="bio">{{m.bio}}</p>
+                                <p class="bio">
+                                    <b>Fun fact:</b> {{m.funFact}}</p>
+                                <p class="bio">
+                                    <b>Website:</b>
+                                    <a v-bind:href="m.link">{{m.link}}</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
 

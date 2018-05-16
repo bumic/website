@@ -39,7 +39,7 @@ header {
 header .navigation {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #nav_bar {
@@ -50,6 +50,7 @@ header .navigation {
     /*background-color:rgba(0, 0, 0, 0.05);*/
 }
 
+
 /*
 #dummy-div {
     width: 160px;
@@ -59,14 +60,16 @@ header .navigation {
 */
 
 #logo-section {
-    margin: 0 auto;
+    margin: 0 auto 0 0;
     width: 0;
+    position: relative;
 }
 
 #logo-image img {
     width: auto;
     height: 2.5em;
     margin-top: .25em;
+    position: absolute;
 }
 
 #menu_section {
@@ -127,6 +130,7 @@ header .navigation {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+    margin-left: auto;
 }
 
 #fb-icon {

@@ -8,37 +8,7 @@
 			"fun_fact": "I'm a Latin dancer.",
 			"pic": "rachel_manzelli.jpg",
 			"link": "https://github.com/manzelli",
-			"title": "Co-President"
-		},
-		{
-			"first_name": "Chloe",
-			"last_name": "Kaubisch",
-			"year": "B.A. 2020, Computer Science",
-			"bio": "I'm an computer science undergraduate from New York. I was introduced to machine learning a few years ago and I'm now primarily interested in natural language processing and computer vision.",
-			"fun_fact": "Too many fun facts to list.",
-			"pic": "chloe_kaubisch.jpg",
-			"link": "https://github.com/chloenayon",
-			"title": "Treasurer"
-		},
-		{
-			"first_name": "Jinghu",
-			"last_name": "Lei",
-			"year": "B.A. 2020, Computer Science",
-			"bio": "Interested in ml because of potential possibilities. Want to be involved in the forefront of innovation.",
-			"fun_fact": "Sucks at parkour, trying to learn basketball, get me bubble tea and ill love u for life <3",
-			"pic": "jinghu_lei.jpg",
-			"link": "https://github.com/jinghul",
-			"title": "Social Media"
-		},
-		{
-			"first_name": "Charles",
-			"last_name": "Ma",
-			"year": "B.A. 2020, Computer Science, and Finance",
-			"bio": "As the only business student on the e-board, I come from a non-traditional background in the context of MIC. However, I foster a keen interest in the tech sector (currently quite ML-oriented), and believe to understand it to the fullest, one should immerse themselves in the technical side in addition to macro-trends.",
-			"fun_fact": "I fence sabre, play ball, lift recreationally, and play piano.",
-			"pic": "charles_ma.jpg",
-			"link": "https://github.com/charlesma4",
-			"title": "Corporate Relations"
+			"title": ""
 		},
 		{
 			"first_name": "Duy",
@@ -51,16 +21,6 @@
 			"title": ""
 		},
 		{
-			"first_name": "Tammy",
-			"last_name": "Qiu",
-			"year": "B.A. 2019, Computer Science and Fine Art",
-			"bio": "My name is Tammy Qiu and I am a junior majoring in Graphic Design and Computer Science. I am interested in learning about Artificial Intelligence because I believe that simulating intelligence will help us better understand our own intelligence as well as consciousness.",
-			"fun_fact": "In my free time, I love to paint, read and dance.",
-			"pic": "tammy_qiu.jpg",
-			"title": "Alumna",
-			"link":"https://tqiu.myportfolio.com/"
-		},
-		{
 			"first_name": "Julius",
 			"last_name": "Frost",
 			"year": "B.A./M.S. 2021, Computer Science",
@@ -68,7 +28,7 @@
 			"fun_fact": "I was in a movie and a rock band.",
 			"link": "https://github.com/juliusfrost",
 			"pic": "julius_frost.jpg",
-			"title":"Web Developer"
+			"title":"Co-President"
 		},
 		{
 			"first_name": "Devin",
@@ -78,7 +38,7 @@
 			"fun_fact": "All of them.",
 			"link":"https://github.com/ddehueck",
 			"pic":"devin_de_hueck.jpg",
-			"title":"Technical Lead"
+			"title":"Co-President"
 		},
 		{
 			"first_name": "Zack",

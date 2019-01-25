@@ -93,7 +93,7 @@
 		{
 			"first_name": "Julius",
 			"last_name": "Frost",
-			"year": "B.A. 2021, Computer Science",
+			"year": "B.A./M.S. 2021, Computer Science",
 			"bio": "My time is dynamically allocated in academics, projects, and machine learning. My goal is to become part of the forefront of AI research, and the eventual creation of AGI. In that regard, I believe humanity will never become irrelevant and that our species will survive a singularity.",
 			"fun_fact": "I was in a rock band that won a city wide competition in South Korea. I also love parkour, skiing, and playing guitar.",
 			"link": "https://github.com/juliusfrost",
@@ -109,6 +109,46 @@
 			"link":"https://github.com/ddehueck",
 			"pic":"devin_de_hueck.jpg",
 			"title":"Technical Lead"
+		},
+		{
+			"first_name": "Zack",
+			"last_name": "Zhang",
+			"year": "B.A. 2021, Mathematics and Computer Science",
+			"bio": "I am interested in ML because it allows us to create powerful agents that make our lives fundamentally more efficient. I am interested in NLP.",
+			"fun_fact": "I am a certified cook.",
+			"link":"https://zacklight.com",
+			"pic":"zack_zhang.jpg",
+			"title":"Web Developer"
+		},
+		{
+			"first_name": "Deren",
+			"last_name": "Singh",
+			"year": "B.A. 2021, Computer Science",
+			"bio": "What got me interested in ml was the applications of it to almost anything. From video games to image detection to language processing, there are so many ways to apply the concept",
+			"fun_fact": "I enjoy flying drones.",
+			"link":"www.github.com/derens99",
+			"pic":"deren_singh.jpg",
+			"title":""
+		},
+		{
+			"first_name": "Sofia",
+			"last_name": "Zalaquett",
+			"year": "B.A. 2021, International Relations",
+			"bio": "Hi, my name is Sofia, and I am sophomore at BU studying International Relations. I am interested in ML and AI because of the impact it has on society. Every day we rely more and more on technology to solve the world's problems; therefore I believe its crucial for everyone to know what is it capable of, where is it going, and ask ourselves where do we want it to go. I am particularly passionate about Reinforcement Learning, as it involves more ethical questions like its application on self-driving cars.",
+			"fun_fact": "I am from Chile.",
+			"link":"https://www.linkedin.com/in/sofiazalaquett/",
+			"pic":"sofia_zalaquett.jpg",
+			"title":"Treasurer"
+		},
+		{
+			"first_name": "Curtis",
+			"last_name": "Mason",
+			"year": "B.A./M.S. 2021, Computer Science",
+			"bio": "My first exposure to machine learning was through a hackathon. My group of friends introduced me to an academic paper during high school called Cycle-Ganz which allowed people to apply artistic filters onto images through style transformations/object transfigurations. Ever since, I've been embedding ML techniques into many of my projects ranging from fintech trading problems to other automated tasks.",
+			"fun_fact": "I used to regularly make profits selling candy back in early elementary school.",
+			"link":"www.github.com/cumason123",
+			"pic":"curtis_mason.jpg",
+			"title":"Web Developer"
 		}
 	],
 	"advisors": [

@@ -1,16 +1,6 @@
 {
 	"members": [
 		{
-			"first_name": "Justin",
-			"last_name": "Chen",
-			"year": "B.A. 2014, Computer Science; M.S. 2018, Computer Science",
-			"bio": "I want to create a comic-book inspired future. Research interests: AGI, Deep Learning, Democratizing AI, Distributed Learning, Generative Modeling, Manifold Learning, Metaheuristics, Meta Learning, Neuroevolution, Reinforcement Learning",
-			"fun_fact": "I've been practicing parkour since 2005 and created the website Parkour Theory.",
-			"pic": "justin_chen.jpg",
-			"link": "http://cs-people.bu.edu/chenjus/",
-			"title": "Alumnus"
-		},
-		{
 			"first_name": "Rachel",
 			"last_name": "Manzelli",
 			"year": "B.S. 2019, Computer Engineering",
@@ -18,16 +8,6 @@
 			"fun_fact": "I'm a Latin dancer.",
 			"pic": "rachel_manzelli.jpg",
 			"link": "https://github.com/manzelli",
-			"title": "Co-President"
-		},
-		{
-			"first_name": "Tyrone",
-			"last_name": "Hou",
-			"year": "B.A. 2018, Computer Science",
-			"bio": "I've always been interested in science fiction (especially Isaac Asimov's works) and exploring human intelligence in general, and I'm excited to see where the future with machine learning and AI will take us!",
-			"fun_fact": "In high school, I once played in a three man jazz combo at a local ice cream shop and earned $80 that night.",
-			"pic": "tyrone_hou.jpg",
-			"link": "https://github.com/tyronehou",
 			"title": "Co-President"
 		},
 		{
@@ -81,21 +61,11 @@
 			"link":"https://tqiu.myportfolio.com/"
 		},
 		{
-			"first_name": "Rex",
-			"last_name": "Wang",
-			"year": "B.S. 2015, Mathematics; M.S. 2017, Computer Science",
-			"bio": "I earned my B.S in Mathematics from Southeast University, and got M.S degree in Computer Science from Boston University. My research interests focus on deep learning, graphical models and statistical learning. Starting in 2017, I will work as a software engineer at Broad Institute of MIT and Harvard.",
-			"fun_fact": "I like traveling and hope to travel all over the world.(30% finished) I also enjoy hiking, skiing, photography and flying drones.",
-			"pic": "rex_wang.jpg",
-			"link": "https://github.com/rexwangcc",
-			"title": "Alumnus"
-		}, 
-		{
 			"first_name": "Julius",
 			"last_name": "Frost",
 			"year": "B.A./M.S. 2021, Computer Science",
-			"bio": "My time is dynamically allocated in academics, projects, and machine learning. My goal is to become part of the forefront of AI research, and the eventual creation of AGI. In that regard, I believe humanity will never become irrelevant and that our species will survive a singularity.",
-			"fun_fact": "I was in a rock band that won a city wide competition in South Korea. I also love parkour, skiing, and playing guitar.",
+			"bio": "Creating AI seems like an incredible power to have and its spread should be well controlled but accessible to everyone. I am interested in researching machine learning methods that may lead to artificial general intelligence. At the moment this left me with a great interest in reinforcement learning. Studying AI is really rewarding for me because there is an unlimited supply of questions and ideas to try. So, it is my ambition to be at the forefront of AI technology.",
+			"fun_fact": "I was in a movie and a rock band.",
 			"link": "https://github.com/juliusfrost",
 			"pic": "julius_frost.jpg",
 			"title":"Web Developer"
@@ -124,7 +94,7 @@
 			"first_name": "Deren",
 			"last_name": "Singh",
 			"year": "B.A. 2021, Computer Science",
-			"bio": "What got me interested in ml was the applications of it to almost anything. From video games to image detection to language processing, there are so many ways to apply the concept",
+			"bio": "AI will touch every aspect of our society sooner than people think. Because of this, I believe it is necessary to work towards ensuring this future benefits everyone. With this in mind, my research interests are focused on explainable ML, GANs, and transfer learning. Within MIC, I hope to help advance our mission of democratizing AI and growing a diverse community of researchers.",
 			"fun_fact": "I enjoy flying drones.",
 			"link":"www.github.com/derens99",
 			"pic":"deren_singh.jpg",
